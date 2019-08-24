@@ -12,6 +12,11 @@ router.get('/wow', (req, res, next) => {
   res.render('index');
 });
 
+router.get('/blah', (req, res, next) => {
+  res.render('index');
+});
+
+
 
 
 

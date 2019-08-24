@@ -6,4 +6,13 @@ router.get('/', (req, res, next) => {
   res.render('index');
 });
 
+
+
+router.get('/wow', (req, res, next) => {
+  res.render('index');
+});
+
+
+
+
 module.exports = router;
